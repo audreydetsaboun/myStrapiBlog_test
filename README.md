@@ -37,7 +37,7 @@ CATEGORIE: nom
 
 auteur(id, nom)
 
-article(id, titre, chapeau, corps, #auteur(id))
+article(id, titre, chapeau, contenu, #auteur(id))
 
 categorie(id, nom)
 
